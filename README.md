@@ -1,6 +1,6 @@
-# REx
+# REx ![AppVeyor Build](https://ci.appveyor.com/api/projects/status/github/TestExperience/REx)
 
-Remote Executor .Net Library
+Remote Executor .Net Library 
 
 ## What is it?
 
