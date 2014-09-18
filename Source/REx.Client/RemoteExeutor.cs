@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 
 namespace REx.Client
@@ -17,9 +18,13 @@ namespace REx.Client
         /// <summary>
         /// Deploys and starts the service on the remote node
         /// </summary>
-        public void DeployService(string username, string password)
+        public void DeployService(string domain, string username, string password)
         {
+            //TODO: Copy service to \\_hostname\admin$\system32\RExSvc\REXSvc.zip
+            //TODO: Unzip service into \\_hostname\admin$\system32\RExSvc\
 
+            ServiceHelper.CreateNewService(_hostname, @"C:\Windows\system32\RExSvc\REx.Service.exe",
+                new NetworkCredential(username, password, domain));
         }
 
         /// <summary>
