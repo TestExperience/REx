@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REx.Client", "Source\REx.Client\REx.Client.csproj", "{B9E81E61-132A-4BB1-94B2-C46A0306C4B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REx.Client", "source\REx.Client\REx.Client.csproj", "{B9E81E61-132A-4BB1-94B2-C46A0306C4B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REx.Client.Tests", "tests\REx.Client.Tests\REx.Client.Tests.csproj", "{38C8965B-FEFC-4BD1-B905-C36B6F01FC8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B9E81E61-132A-4BB1-94B2-C46A0306C4B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9E81E61-132A-4BB1-94B2-C46A0306C4B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9E81E61-132A-4BB1-94B2-C46A0306C4B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38C8965B-FEFC-4BD1-B905-C36B6F01FC8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38C8965B-FEFC-4BD1-B905-C36B6F01FC8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38C8965B-FEFC-4BD1-B905-C36B6F01FC8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38C8965B-FEFC-4BD1-B905-C36B6F01FC8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
