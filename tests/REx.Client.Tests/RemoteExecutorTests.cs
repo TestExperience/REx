@@ -9,7 +9,7 @@ namespace REx.Client.Tests
         private RemoteExeutor _exeutor;
 
         [TestFixtureSetUp]
-        private void SetupTestFixture()
+        public void SetupTestFixture()
         {
             _exeutor = new RemoteExeutor("localhost");
             _exeutor.DeployService();
@@ -29,7 +29,7 @@ namespace REx.Client.Tests
         }
 
         [TestFixtureTearDown]
-        private void TearDownFixture()
+        public void TearDownFixture()
         {
             _exeutor.Dispose();
         }
