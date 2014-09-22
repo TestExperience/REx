@@ -51,7 +51,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\source\REx.Client\REx.Client.csproj">
+    <ProjectReference Include="..\..\sources\REx.Client\REx.Client.csproj">
       <Project>{b9e81e61-132a-4bb1-94b2-c46a0306c4b8}</Project>
       <Name>REx.Client</Name>
     </ProjectReference>
