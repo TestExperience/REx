@@ -59,7 +59,7 @@ build:
   publish_nuget: true             # package projects with .nuspec files and push to artifacts
 
   # MSBuild verbosity level (quiet|minimal|normal|detailed)
-  verbosity: detailed
+  verbosity: normal
 
 # scripts to run before build
 before_build:
@@ -72,6 +72,30 @@ build_script:
 
 # to disable automatic builds
 #build: off
+
+#---------------------------------#
+#       tests configuration       #
+#---------------------------------#
+
+test:
+  assemblies:
+    - *.Tests.dll
+
+# to run tests from different categories as separate jobs in parallel
+#test:
+#  categories:
+#    - A            # A category common for all jobs
+#    - [UI]         # 1st job
+#    - [DAL, BL]    # 2nd job
+
+# scripts to run before tests
+#before_test:
+
+# scripts to run after tests
+#after_test:
+
+# to disable automatic tests 
+#test: off
 
 #---------------------------------#
 #      artifacts configuration    #

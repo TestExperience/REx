@@ -3,9 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REx.Client", "source\REx.Client\REx.Client.csproj", "{B9E81E61-132A-4BB1-94B2-C46A0306C4B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REx.Client", "sources\REx.Client\REx.Client.csproj", "{B9E81E61-132A-4BB1-94B2-C46A0306C4B8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REx.Client.Tests", "tests\REx.Client.Tests\REx.Client.Tests.csproj", "{38C8965B-FEFC-4BD1-B905-C36B6F01FC8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9AF12D1E-6511-4326-91D2-1F4CD558B7F7}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
