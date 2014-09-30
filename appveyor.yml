@@ -91,17 +91,11 @@ build_script:
 #---------------------------------#
 
 artifacts:
-  - path: artifacts\$(configuration)\console\*
-  - name: REx.Console
-  - type: zip
+  - path: artifacts\$(configuration)\console
   
-  - path: artifacts\$(configuration)\library\*
-  - name: REx.Library
-  - type: zip
+  - path: artifacts\$(configuration)\library
   
-  - path: artifacts\$(configuration)\server\*
-  - name: REx.Server
-  - type: zip
+  - path: artifacts\$(configuration)\server
 
   # pushing all *.nupkg files in directory
   - path: artifacts\$(configuration)\packages\*.nupkg
