@@ -91,7 +91,6 @@ build_script:
 #---------------------------------#
 
 artifacts:
-
   - path: artifacts\$(configuration)\console\*
   - name: REx.Console
   - type: zip
