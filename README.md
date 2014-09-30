@@ -12,5 +12,5 @@ without installing anything on the remote node by yourself.
 
 ## Acknowledgements
 
-Icons8 (Application Logo): http://icons8.com/license/
-Pero Matic (ServiceLauncher): http://www.codeproject.com/Articles/35773/Subverting-Vista-UAC-in-Both-and-bit-Archite
+- Icons8 (Application Logo): http://icons8.com/license/
+- Pero Matic (ServiceLauncher): http://www.codeproject.com/Articles/35773/Subverting-Vista-UAC-in-Both-and-bit-Archite
