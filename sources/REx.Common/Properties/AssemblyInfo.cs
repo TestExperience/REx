@@ -1,7 +1,7 @@
 ﻿using System.Reflection;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("REx.Client.Tests")]
+[assembly: AssemblyTitle("REx.Common")]
 [assembly: AssemblyDescription("")]
 
-[assembly: Guid("177302ac-c305-40ad-9687-b32bc9848241")]
+[assembly: Guid("60f35acb-c304-4d5d-94cb-14d3ac8a01de")]
