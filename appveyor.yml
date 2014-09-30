@@ -92,8 +92,17 @@ build_script:
 
 artifacts:
 
-  # pushing a single file with environment variable in path and "Deployment name" specified
-  - path: Artifacts\bin\$(configuration)\*
+  - path: artifacts\$(configuration)\console\*
+  - name: REx.Console
+  - type: zip
+  
+  - path: artifacts\$(configuration)\library\*
+  - name: REx.Library
+  - type: zip
+  
+  - path: artifacts\$(configuration)\server\*
+  - name: REx.Server
+  - type: zip
 
   # pushing all *.nupkg files in directory
-  - path: Artifacts\packages\$(configuration)\*.nupkg
+  - path: artifacts\$(configuration)\packages\*.nupkg
